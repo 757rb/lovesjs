@@ -18,6 +18,15 @@ GIT
       bindex (>= 0.4.0)
       railties (>= 5.0)
 
+GIT
+  remote: https://github.com/rails/webpacker.git
+  revision: 814cabae36da6ec5b55291e7b55db08ad8e6b839
+  specs:
+    webpacker (1.1)
+      activesupport (>= 4.2)
+      multi_json (~> 1.2)
+      railties (>= 4.2)
+
 PATH
   remote: /Users/kencollins/Repositories/rails
   specs:
@@ -168,10 +177,6 @@ GEM
       thread_safe (~> 0.1)
     uglifier (3.2.0)
       execjs (>= 0.3.0, < 3)
-    webpacker (1.1)
-      activesupport (>= 4.2)
-      multi_json (~> 1.2)
-      railties (>= 4.2)
     websocket (1.2.4)
     websocket-driver (0.6.5)
       websocket-extensions (>= 0.1.0)
@@ -197,7 +202,7 @@ DEPENDENCIES
   tzinfo-data
   uglifier (>= 1.3.0)
   web-console!
-  webpacker
+  webpacker!
 
 BUNDLED WITH
    1.14.6
