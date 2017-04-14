@@ -16,6 +16,10 @@ Explore a design system that uses Rails v5.1 app to build shareable components a
 * Customization, themeing, and extensibility.
 * Using many componets on a page.
 
+#### Stretch Goals
+
+* Explore Roundup.JS. All libraries use this now. Better for libs vs webpack/apps.
+
 ### Related Notes
 
 * [Setup, Webpacker Learning Notes with React Results](doc/SETUP.md)
